@@ -316,6 +316,7 @@
     <Compile Include="Assets\PaintCraft\Engine\Scripts\Editor\TexturePathPropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AvatarShader.shader" />
     <None Include="Assets\DepthMask.shader" />
     <None Include="Assets\DepthRender.shader" />
     <None Include="Assets\PaintCraft\3DParty\NodeInspector\LICENSE.txt" />
@@ -341,7 +342,14 @@
     <None Include="Assets\PaintCraft\Engine\Shaders\Effects\GlitterPostprocess.shader" />
     <None Include="Assets\PaintCraft\Engine\Shaders\UnlitVertexColor.shader" />
     <None Include="Assets\PaintCraft\README.txt" />
+    <None Include="Assets\Portal Shaders\Back.shader" />
+    <None Include="Assets\Portal Shaders\InnerCircle.shader" />
+    <None Include="Assets\Portal Shaders\OuterRing.shader" />
+    <None Include="Assets\Portal Shaders\Walls.shader" />
     <None Include="Assets\ZMask.shader" />
+    <None Include="Assets\ZMask2.shader" />
+    <None Include="Assets\ZMask3.shader" />
+    <None Include="Assets\ZMask4.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

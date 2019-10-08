@@ -139,9 +139,9 @@ namespace PaintCraft.Controllers{
                 BackLayerController.Init(this);
                 BackLayerController.gameObject.layer = 0;
 
-                OutlineOverlayController = GOUtil.CreateGameObject<OutlineOverlayController>("Overlay", gameObject, 50);
-                OutlineOverlayController.Init(this);
-                OutlineOverlayController.gameObject.layer = 1;
+            //    OutlineOverlayController = GOUtil.CreateGameObject<OutlineOverlayController>("Overlay", gameObject, 50);
+            //    OutlineOverlayController.Init(this);
+            //    OutlineOverlayController.gameObject.layer = 1;
             } else {
                 BackLayerController.SetNewSize();
                 OutlineOverlayController.SetNewSize();

@@ -15,4 +15,5 @@ MonoBehaviour:
   startImagePath: 
   outlinePath: Coloring Pages/bull/bull_outline
   RegionPath: Coloring Pages/bull/bull_regions
+  OverlayPath: Coloring Pages/bull/bull_overlay
   IconPath: Coloring Pages/bull/bull_icon

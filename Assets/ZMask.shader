@@ -1,4 +1,4 @@
-﻿Shader "Transparent/Diffuse ZWrite" {
+﻿Shader "Transparent/ZWrite" {
 	Properties{
 		_Color("Main Color", Color) = (1,1,1,1)
 		_MainTex("Base (RGB) Trans (A)", 2D) = "white" {}

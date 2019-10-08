@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PaintCraft/Demo/ColoringBook/ColoringBook.unity
+- path: Assets/PaintCraft/Demo/TransparentBackground/TransparentBackground Demo.unity
   isLoaded: 1
   isActive: 1
