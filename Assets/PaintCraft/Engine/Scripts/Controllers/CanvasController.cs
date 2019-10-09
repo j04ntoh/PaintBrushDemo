@@ -91,8 +91,7 @@ namespace PaintCraft.Controllers{
 
         public void SetActivePageConfig(PageConfig pageConfig){
             PageConfig = pageConfig;
-
-
+            
 		    Width = PageConfig.GetSize().x;
 		    Height = PageConfig.GetSize().y;
             inputBounds = new Bounds(transform.position, new Vector3(Width + InputTresholdMargin * 2, Height + InputTresholdMargin * 2, 1));
@@ -177,6 +176,7 @@ namespace PaintCraft.Controllers{
             if (OnPageChange != null){
                 OnPageChange.Invoke(pageConfig);
             }
+
         }
 
         private void SetupTmpTextureSize()
@@ -318,6 +318,7 @@ namespace PaintCraft.Controllers{
                 oldWIdth = Screen.width;
                 oldHeight = Screen.height;
                 LoadFromDiskOrClear();
+                transform.localPosition = new Vector2(0, -200);
             }
         }
 

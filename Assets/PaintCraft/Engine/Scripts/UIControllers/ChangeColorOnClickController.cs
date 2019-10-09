@@ -14,7 +14,9 @@ namespace PatinCraft.UI{
             if (LineConfig == null){
                 Debug.LogError("LineConfig must be provided", gameObject);
             }
-    	}
+            CopyColorImageComponent();
+
+        }
     	
 
         #region IPointerClickHandler implementation

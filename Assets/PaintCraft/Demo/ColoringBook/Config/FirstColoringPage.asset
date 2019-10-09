@@ -14,6 +14,6 @@ MonoBehaviour:
   UniqueId: rhino
   startImagePath: 
   outlinePath: animal_rhino
-  RegionPath: animal_rhino_region
+  RegionPath: animal_rhino_hide
   OverlayPath: animal_rhino_hide
   IconPath: animal_rhino
